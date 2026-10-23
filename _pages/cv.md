@@ -9,56 +9,60 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+**Education**
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Computer Science, Hong Kong University of Science and Technology (HKUST), 2024–Present
+* B.Eng., Shanghai Jiao Tong University (SJTU), 2024
 
-Work experience
+**Work experience**
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Research Intern** (Feb 2025–Present)
+  * MINIMAX
+  * Responsibilities: Working on large language model technologies and AI initiatives
+  * Supervisor: Principal investigator
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Research Intern** (June 2024–Sept 2024)
+  * Tencent WXG (WeChat Group)
+  * Responsibilities: Working on AI-powered vertically integrated applications for WeChat
+  * Advisor: Zifei Shan
+  * Location: Shenzhen, China
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Research Intern** (June 2023–Dec 2023)
+  * Shanghai AI Lab
+  * Responsibilities: Researching and developing AI algorithms and systems
+  * Advisor: Prof. Yu Cheng
+  * Location: Shanghai, China
 
-Publications
+**Skills**
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+* Programming: Python, MATLAB, PyTorch
+* ML/AI: Deep Learning, Large Language Models (LLMs), Reinforcement Learning, Natural Language Processing, Machine Learning
+* Tools: Git, GitHub, Jupyter notebooks, AgNLP, LightGBM
+* Platforms: Google Scholar, arXiv
+* Academic Software: Various ML frameworks and research tools
+
+**Publications**
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+**Talks & Presentations**
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+<ul>{% for post in site.talks reversed %}
+  {% include archive-single-talk-cv.html %}
+{/ul}</ul>
+
+**Teaching**
 ======
-* Currently signed in to 43 different slack teams
+<ul>{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+**Additional Information**
+======
+* Academic Mentorship: Provided student guidance during internship at Shanghai Jiao Tong University
+* Research Coding: Developed several publications with associated code repositories available on GitHub
+* Awards: Zhiyuan Honor Scholarship at Shanghai Jiao Tong University
+
+[Publications Page](/publications) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate) | [GitHub](https://github.com/Vicent0205) | [Email](mailto:jliugi@connect.ust.hk) | [Twitter](https://x.com/junteng88716710)
